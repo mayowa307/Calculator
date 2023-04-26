@@ -1,0 +1,117 @@
+body{
+    background-color: #f5ebdc;
+}
+
+
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 20px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+li:hover{
+    background-color: rgb(208, 227, 242);
+}
+
+
+a{
+    text-decoration: none;
+    color: #502314;
+}
+
+a:hover{
+    color: rgba(215, 35, 0, 0.8);
+    
+}
+
+
+.logo{
+    width: 50px;
+    margin-left: 100px;
+}
+
+header{
+    display: flex;
+}
+
+/* hero section */
+
+.heroimg{
+    width: 100%;
+}
+
+button{
+    margin-left: 100px;
+    position: relative;
+    bottom: 100px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 800;
+    border: none;
+}
+h3{
+    color: #502314;
+    font-size: 30px;
+    font-weight: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.couponimg{
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+    
+}
+.general{
+    display: flex;
+    justify-content: center;
+    
+}
+.link{
+    text-decoration: none;
+    color: #d72300;
+    font-size: 20px;
+    margin-left: 1120px;
+    margin-top: 20px;
+
+
+}
+.link :hover{
+    animation: none;
+}
+.gen2{
+    display: flex;
+    margin: 20px 50px;
+    
+}
+footer{
+    background-color: #502314;;
+}
+.bk{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-left: 80px;
+    position: relative;
+    left: 700px;
+}
+.prg{
+    color: #ffffff;
+}
+.foot{
+    display: flex;
+    margin-left: 720px;
+}
